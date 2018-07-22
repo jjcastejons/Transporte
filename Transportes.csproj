@@ -89,14 +89,6 @@
       <HintPath>..\..\program files (x86)\sap businessobjects\crystal reports for .net framework 4.0\common\sap businessobjects enterprise xi 4.0\win32_x86\dotnet\CrystalDecisions.Windows.Forms.dll</HintPath>
     </Reference>
     <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
-    <Reference Include="Geckofx-Core, Version=45.0.32.0, Culture=neutral, PublicKeyToken=3209ac31600d1857, processorArchitecture=x86">
-      <HintPath>packages\Geckofx45.45.0.32\lib\net45\Geckofx-Core.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Geckofx-Winforms, Version=45.0.32.0, Culture=neutral, PublicKeyToken=3209ac31600d1857, processorArchitecture=x86">
-      <HintPath>packages\Geckofx45.45.0.32\lib\net45\Geckofx-Winforms.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="IKVM.AWT.WinForms, Version=8.0.5449.1, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
       <HintPath>packages\IKVM.8.0.5449.1\lib\IKVM.AWT.WinForms.dll</HintPath>
       <Private>True</Private>

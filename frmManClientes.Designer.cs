@@ -290,7 +290,7 @@
             this.Controls.Add(this.ToolStrip1);
             this.Controls.Add(this.GroupBox1);
             this.Name = "frmManClientes";
-            this.Text = "frmManClientes";
+            this.Text = "Mantenimiento de clientes";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmManClientes_KeyDown);
             this.GroupBox1.ResumeLayout(false);
             this.GroupBox1.PerformLayout();

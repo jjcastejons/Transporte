@@ -1,6 +1,6 @@
 ﻿namespace Transportes
 {
-    partial class frmUsuario
+    partial class frmManUsuarios
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // frmUsuario
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "frmUsuario";
+            this.ClientSize = new System.Drawing.Size(593, 331);
+            this.Name = "frmUsuario";
+            this.Text = "Mantenimiento de usuarios";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

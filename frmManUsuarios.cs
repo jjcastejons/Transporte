@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Transportes
 {
-    public partial class frmUsuario : Form
+    public partial class frmManUsuarios : Form
     {
-        public frmUsuario()
+        public frmManUsuarios()
         {
             InitializeComponent();
         }

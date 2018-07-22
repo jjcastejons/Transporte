@@ -310,11 +310,11 @@
     <Compile Include="frmManVehiculos.Designer.cs">
       <DependentUpon>frmManVehiculos.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmUsuario.cs">
+    <Compile Include="frmManUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmUsuario.Designer.cs">
-      <DependentUpon>frmUsuario.cs</DependentUpon>
+    <Compile Include="frmManUsuarios.Designer.cs">
+      <DependentUpon>frmManUsuarios.cs</DependentUpon>
     </Compile>
     <Compile Include="frmVerInformes.cs">
       <SubType>Form</SubType>
@@ -371,8 +371,8 @@
     <EmbeddedResource Include="frmManVehiculos.resx">
       <DependentUpon>frmManVehiculos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmUsuario.resx">
-      <DependentUpon>frmUsuario.cs</DependentUpon>
+    <EmbeddedResource Include="frmManUsuarios.resx">
+      <DependentUpon>frmManUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmVerInformes.resx">
       <DependentUpon>frmVerInformes.cs</DependentUpon>

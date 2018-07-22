@@ -6,11 +6,7 @@ using System.Data.SqlClient;
 using System.Drawing.Printing;
 using System.Drawing;
 using System.Diagnostics;
-using System.Windows;
 using System.Data;
-using Microsoft.Office.Interop;
-using Microsoft.Office.Interop.Outlook;
-using Microsoft.Office.Interop.Excel;
 using System.Text;
 
 

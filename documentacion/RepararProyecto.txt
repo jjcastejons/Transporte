@@ -1,0 +1,4 @@
+Install-Package Baseclass.Contrib.Nuget.Output -Version 2.2.0-xbuild02 -Pre 
+Clean
+Build
+Rebuild

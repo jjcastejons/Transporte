@@ -1736,7 +1736,7 @@ namespace Transportes {
                 }
                 bytImageData = Encoding.ASCII.GetBytes(dr[0].ToString());
             }
-            //bytImageData = devolverParametroSelect("select imagen from usr_ringo.image where id_key = 1")
+            //bytImageData = devolverParametroSelect("select imagen from usr_transportes.image where id_key = 1")
 
             //Dim RowCount As Integer = 
             //ds.Tables("Image").Rows.Count
@@ -2187,7 +2187,7 @@ namespace Transportes {
 
                 objMail.To = direccionCorreo;
                 objMail.Subject = _asunto.Trim();
-                //TextoEmail = "CORREO ENVIADO DESDE EL SISTEMA DE GESTION DE RINGOVALVULAS" & Chr(13) + Chr(10) & Chr(13) + Chr(10)
+                //TextoEmail = "CORREO ENVIADO DESDE EL SISTEMA DE GESTION" & Chr(13) + Chr(10) & Chr(13) + Chr(10)
                 TextoEmail = (char)13 + (char)10 + _textoCorreo;
 
                 //objMail.Body = TextoEmail
@@ -2209,23 +2209,23 @@ namespace Transportes {
                 switch (mdPrincipal.Id_Usuario) {
                     case 46:
                         //ajimenez
-                        objMail.HTMLBody = "<html><style>body{font-family:'Calibri','sans-serif';font-size:11.0pt;color:navy}</style>" + "<body>" + TextoEmail + "<br><br><br>Ana Jiménez Cardona <br> " + "Jefa Adjunta de Compras / Deputy Purchasing Manager <br>" + "Teléfono directo / Phone number: + 34 976 45 49 40 (Ext. 250) / +34 976 45 48 90<br>" + "Visite nuestra página web: <a href='http://www.ringospain.com' target='_blank'>www.ringospain.com</a>";
+                        objMail.HTMLBody = "<html><style>body{font-family:'Calibri','sans-serif';font-size:11.0pt;color:navy}</style>" + "<body>" + TextoEmail + "<br><br><br>Ana Jiménez Cardona <br> " + "Jefa Adjunta de Compras / Deputy Purchasing Manager <br>" + "Teléfono directo / Phone number: + 34 976 45 49 40 (Ext. 250) / +34 976 45 48 90<br>" + "Visite nuestra página web: <a href='http://www.transporzara.com' target='_blank'>www.transporzara.com</a>";
                         break;
                     case 64:
                         //mpons
-                        objMail.HTMLBody = "<html><style>body{font-family:'Calibri','sans-serif';font-size:11.0pt;color:navy}</style>" + "<body>" + TextoEmail + "<br><br><br>Miguel Pons <br> " + "Departamento de Compras / Purchasing Department<br>" + "Teléfono directo / Phone number: + 34 976 45 49 40 (Ext. 259) / +34 976 45 48 90<br>" + "Visite nuestra página web: <a href='http://www.ringospain.com' target='_blank'>www.ringospain.com</a>";
+                        objMail.HTMLBody = "<html><style>body{font-family:'Calibri','sans-serif';font-size:11.0pt;color:navy}</style>" + "<body>" + TextoEmail + "<br><br><br>Miguel Pons <br> " + "Departamento de Compras / Purchasing Department<br>" + "Teléfono directo / Phone number: + 34 976 45 49 40 (Ext. 259) / +34 976 45 48 90<br>" + "Visite nuestra página web: <a href='http://www.transporzara.com' target='_blank'>www.transporzara.com</a>";
 
                         break;
                     case 19:
                         //jlsalvador
-                        objMail.HTMLBody = "<html><style>body{font-family:'Calibri','sans-serif';font-size:11.0pt;color:navy}</style>" + "<body>" + TextoEmail + "<br><br><br>Jose Luis Salvador <br> " + "Jefe Compras / Purchasing Department<br>" + "Teléfono directo / Phone number: + 34 976 45 49 40 (Ext. 259) / +34 976 45 48 90<br>" + "Visite nuestra página web: <a href='http://www.ringospain.com' target='_blank'>www.ringospain.com</a>";
+                        objMail.HTMLBody = "<html><style>body{font-family:'Calibri','sans-serif';font-size:11.0pt;color:navy}</style>" + "<body>" + TextoEmail + "<br><br><br>Jose Luis Salvador <br> " + "Jefe Compras / Purchasing Department<br>" + "Teléfono directo / Phone number: + 34 976 45 49 40 (Ext. 259) / +34 976 45 48 90<br>" + "Visite nuestra página web: <a href='http://www.transporzara.com' target='_blank'>www.transporzara.com</a>";
                         break;
                     case 39:
                         //jpelles
-                        objMail.HTMLBody = "<html><style>body{font-family:'Calibri','sans-serif';font-size:11.0pt;color:navy}</style>" + "<body>" + TextoEmail + "<br><br><br>" + nombre_completo + "<br>" + "Departamento de Fabricacion / Manufacturing Manager <br>" + "Teléfono directo / Phone number: +34 976 45 49 40 / + 34 976 45 48 90<br>" + "Visite nuestra página web: <a href='http://www.ringospain.com' target='_blank'>www.ringospain.com</a>";
+                        objMail.HTMLBody = "<html><style>body{font-family:'Calibri','sans-serif';font-size:11.0pt;color:navy}</style>" + "<body>" + TextoEmail + "<br><br><br>" + nombre_completo + "<br>" + "Departamento de Fabricacion / Manufacturing Manager <br>" + "Teléfono directo / Phone number: +34 976 45 49 40 / + 34 976 45 48 90<br>" + "Visite nuestra página web: <a href='http://www.transporzara.com' target='_blank'>www.transporzara.com</a>";
                         break;
                     default:
-                        objMail.HTMLBody = "<html><style>body{font-family:'Calibri','sans-serif';font-size:11.0pt;color:navy}</style>" + "<body>" + TextoEmail + "<br><br><br>" + nombre_completo + "<br>" + "Teléfono directo / Phone number: +34 976 45 49 40 / + 34 976 45 48 90<br>" + "Visite nuestra página web: <a href='http://www.ringospain.com' target='_blank'>www.ringospain.com</a>";
+                        objMail.HTMLBody = "<html><style>body{font-family:'Calibri','sans-serif';font-size:11.0pt;color:navy}</style>" + "<body>" + TextoEmail + "<br><br><br>" + nombre_completo + "<br>" + "Teléfono directo / Phone number: +34 976 45 49 40 / + 34 976 45 48 90<br>" + "Visite nuestra página web: <a href='http://www.transporzara.com' target='_blank'>www.transporzara.com</a>";
                         break;
                 }
 
@@ -2347,10 +2347,10 @@ namespace Transportes {
 
 
                 // NUMERO 2 - EMPRESA
-                escribirEnArchivo(_ruta, "03" + "62" + Cif_Ordenante + "000" + rellenarDeEspacios("", 12, DireccionCeros.Derecha) + "002" + rellenarDeEspacios("RINGO VALVULAS S.L.", 33, DireccionCeros.Derecha) + rellenarDeEspacios("", 8, DireccionCeros.Derecha));
+                escribirEnArchivo(_ruta, "03" + "62" + Cif_Ordenante + "000" + rellenarDeEspacios("", 12, DireccionCeros.Derecha) + "002" + rellenarDeEspacios("TRANSPORTES", 33, DireccionCeros.Derecha) + rellenarDeEspacios("", 8, DireccionCeros.Derecha));
 
                 // NUMERO 3 - DIRECCION
-                escribirEnArchivo(_ruta, "03" + "62" + Cif_Ordenante + "000" + rellenarDeEspacios("", 12, DireccionCeros.Derecha) + "003" + rellenarDeEspacios("POL EMPRESARIUM C/ROMERO 6 50720", 33, DireccionCeros.Derecha) + rellenarDeEspacios("", 8, DireccionCeros.Derecha));
+                escribirEnArchivo(_ruta, "03" + "62" + Cif_Ordenante + "000" + rellenarDeEspacios("", 12, DireccionCeros.Derecha) + "003" + rellenarDeEspacios("POL. EL CAMINO", 33, DireccionCeros.Derecha) + rellenarDeEspacios("", 8, DireccionCeros.Derecha));
 
                 // NUMERO 4 - POBLACION
                 escribirEnArchivo(_ruta, "03" + "62" + Cif_Ordenante + "000" + rellenarDeEspacios("", 12, DireccionCeros.Derecha) + "004" + rellenarDeEspacios("ZARAGOZA", 33, DireccionCeros.Derecha) + rellenarDeEspacios("", 8, DireccionCeros.Derecha));

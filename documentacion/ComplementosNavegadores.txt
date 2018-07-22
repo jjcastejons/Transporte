@@ -1,3 +1,0 @@
-Instalación complemento para navegador firefox en c#
-
-http://www.technical-recipes.com/2016/using-the-gecko-web-browser-in-a-c-winforms-project/

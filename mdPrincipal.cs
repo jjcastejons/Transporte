@@ -34,7 +34,7 @@ namespace Transportes {
 
         public static string Error_Acceso = "El usuario o la contraseña no son correctos";
         public static int Id_Usuario;
-
+        public static int Id_Key_Departamento;
         public static string Usuario;
         //Ruta del Archivo XML de configuracion
         public static string Ruta_XML = "config_Transportes.xml";
@@ -89,9 +89,9 @@ namespace Transportes {
 
         public static void Main()
         {
-            frmMain formulario = new frmMain();
-            formulario.StartPosition = FormStartPosition.CenterScreen;
-            formulario.ShowDialog();
+            //frmMain formulario = new frmMain();
+            //formulario.StartPosition = FormStartPosition.CenterScreen;
+            //formulario.ShowDialog();
 
 
 
@@ -104,7 +104,7 @@ namespace Transportes {
 
 
             //Ruta_Ayuda = clsSQL.devolverUnParametro("tg_parametros where nombre = 'ruta_ayuda'", "valor")
-            
+
             //If Cadena_Conexion_SQL.Substring(12, 8).ToUpper <> "SERVER01" Then
             //    formatoFecha = "dd/MM/yyyy"
             //Else
@@ -117,43 +117,52 @@ namespace Transportes {
             //End If
 
 
-            //'* Llamada a autentificar antes de abrir el principal
-            //Dim respuesta As Integer = autentifica()
-            //Select Case respuesta
-            //    Case 0
-            //        Dim frmInicio As frmPrincipal
-            //        frmInicio = New frmPrincipal
-            //        Application.Run(frmInicio)
-            //    Case 2
-            //        While respuesta <> 0
-            //            If respuesta = 1 Then
-            //                Exit While
-            //            End If
-            //            respuesta = autentifica()
-            //        End While
-            //        If respuesta = 0 Then
-            //            Dim frmInicio As frmPrincipal
-            //            frmInicio = New frmPrincipal
-            //            Application.Run(frmInicio)
-            //        Else
-            //            Exit Sub
-            //        End If
-            //End Select
+            // Llamada a autentificar antes de abrir el principal
+            int respuesta = autentifica();
+            switch (respuesta)
+            {
+                case 0:
+                    {
+                        frmMain formulario = new frmMain();
+                        Application.Run(formulario);
+                        break;
+                    }
+
+                case 2:
+                    {
+                        while (respuesta != 0)
+                        {
+                            if (respuesta == 1)
+                                break;
+                            respuesta = autentifica();
+                        }
+                        if (respuesta == 0)
+                        {
+                            frmMain formulario = new frmMain();
+                            Application.Run(formulario);
+                        }
+                        else
+                            return;
+                        break;
+                    }
+            };
         }
 
-        // Obviado de momento para los test
+        // Verificar inicio de sesión
         public static int autentifica()
         {
-            //frmUsuario Formulario = new frmUsuario();
-            //System.Windows.Forms.DialogResult respuesta = Formulario.ShowDialog();
-            //switch (respuesta) {
-            //	case DialogResult.OK:
-            //		return 0;
-            //	case DialogResult.Cancel:
-            //		return 1;
-            //	case DialogResult.No:
-            //		return 2;
-            //}
+            frmLogin Formulario = new frmLogin();
+            Formulario.StartPosition = FormStartPosition.CenterScreen;
+            System.Windows.Forms.DialogResult respuesta = Formulario.ShowDialog();
+            switch (respuesta)
+            {
+                case DialogResult.OK:
+                    return 0;
+                case DialogResult.Cancel:
+                    return 1;
+                case DialogResult.No:
+                    return 2;
+            }
             return 3;
         }
 

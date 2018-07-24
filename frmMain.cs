@@ -10,7 +10,7 @@ namespace Transportes
         {
             clsSQL clsSQL = new clsSQL();
             InitializeComponent();
-            MessageBox.Show("Revise los mensajes importantes que tiene pendientes de visualizar.");
+            //MessageBox.Show("Revise los mensajes importantes que tiene pendientes de visualizar.");
         }
 
         private void vehiculosToolStripMenuItem_Click(object sender, EventArgs e)

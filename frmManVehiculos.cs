@@ -18,9 +18,9 @@ namespace Transportes
             InitializeComponent();
             cargarCombos();
             tabControl1.TabPages["Datos"].ImageIndex = 0;
-            tabControl1.TabPages["Revisiones"].ImageIndex = 1;
-            tabControl1.TabPages["Mantenimiento"].ImageIndex = 2;
+            tabControl1.TabPages["Revisiones"].ImageIndex = 2;
             tabControl1.TabPages["Extintores"].ImageIndex = 3;
+            tabControl1.TabPages["Seguro"].ImageIndex = 1;
 
         }
 

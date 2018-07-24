@@ -51,7 +51,6 @@
             this.combustiblesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gastosFlotaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripDropDownButton2 = new System.Windows.Forms.ToolStripDropDownButton();
-            this.toolStripMenuItem9 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
             this.btnAlerta = new System.Windows.Forms.ToolStripButton();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
@@ -142,14 +141,14 @@
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(132, 22);
             this.toolStripMenuItem2.Text = "Empleados";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // toolStripMenuItem8
             // 
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(132, 22);
             this.toolStripMenuItem8.Text = "Usuarios";
             // 
             // ToolStripSeparator3
@@ -176,60 +175,53 @@
             this.neumáticosToolStripMenuItem,
             this.combustiblesToolStripMenuItem});
             this.comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
-            this.comprasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.comprasToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.comprasToolStripMenuItem.Text = "Compras";
             // 
             // articulosToolStripMenuItem
             // 
             this.articulosToolStripMenuItem.Name = "articulosToolStripMenuItem";
-            this.articulosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.articulosToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.articulosToolStripMenuItem.Text = "Articulos";
             // 
             // proveedoresToolStripMenuItem
             // 
             this.proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
-            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.proveedoresToolStripMenuItem.Text = "Proveedores";
             // 
             // pedidosToolStripMenuItem
             // 
             this.pedidosToolStripMenuItem.Name = "pedidosToolStripMenuItem";
-            this.pedidosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.pedidosToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.pedidosToolStripMenuItem.Text = "Pedidos";
             // 
             // neumáticosToolStripMenuItem
             // 
             this.neumáticosToolStripMenuItem.Name = "neumáticosToolStripMenuItem";
-            this.neumáticosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.neumáticosToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.neumáticosToolStripMenuItem.Text = "Neumáticos";
             // 
             // combustiblesToolStripMenuItem
             // 
             this.combustiblesToolStripMenuItem.Name = "combustiblesToolStripMenuItem";
-            this.combustiblesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.combustiblesToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.combustiblesToolStripMenuItem.Text = "Combustibles";
             // 
             // gastosFlotaToolStripMenuItem
             // 
             this.gastosFlotaToolStripMenuItem.Name = "gastosFlotaToolStripMenuItem";
-            this.gastosFlotaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.gastosFlotaToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.gastosFlotaToolStripMenuItem.Text = "Gastos flota";
             // 
             // toolStripDropDownButton2
             // 
             this.toolStripDropDownButton2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem9,
             this.toolStripMenuItem11});
             this.toolStripDropDownButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton2.Name = "toolStripDropDownButton2";
             this.toolStripDropDownButton2.Size = new System.Drawing.Size(61, 22);
             this.toolStripDropDownButton2.Text = "Agenda";
-            // 
-            // toolStripMenuItem9
-            // 
-            this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(152, 22);
-            this.toolStripMenuItem9.Text = "Servicios";
             // 
             // toolStripMenuItem11
             // 
@@ -282,7 +274,6 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem8;
         internal System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem9;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem11;
         internal System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton3;
         private System.Windows.Forms.ImageList imageList1;

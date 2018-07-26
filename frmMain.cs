@@ -99,5 +99,12 @@ namespace Transportes
             formulario.StartPosition = FormStartPosition.CenterScreen;
             formulario.ShowDialog();
         }
+
+        private void neumáticosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListRuedas formulario = new frmListRuedas();
+            formulario.StartPosition = FormStartPosition.CenterScreen;
+            formulario.ShowDialog();
+        }
     }
 }

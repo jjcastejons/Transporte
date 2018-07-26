@@ -46,16 +46,21 @@
             this.Label2 = new System.Windows.Forms.Label();
             this.Label12 = new System.Windows.Forms.Label();
             this.ToolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.btnNuevoTool = new System.Windows.Forms.ToolStripButton();
             this.ToolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.ToolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.ToolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.btnNuevoTool = new System.Windows.Forms.ToolStripButton();
             this.btnAddTool = new System.Windows.Forms.ToolStripButton();
             this.btnModificarTool = new System.Windows.Forms.ToolStripButton();
-            this.ToolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.btnEliminarTool = new System.Windows.Forms.ToolStripButton();
-            this.ToolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.btnCancelarTool = new System.Windows.Forms.ToolStripButton();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.GroupBox1.SuspendLayout();
             this.ToolStrip1.SuspendLayout();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
             this.SuspendLayout();
             // 
             // GroupBox1
@@ -75,12 +80,11 @@
             this.GroupBox1.Controls.Add(this.Label11);
             this.GroupBox1.Controls.Add(this.Label2);
             this.GroupBox1.Controls.Add(this.Label12);
-            this.GroupBox1.Location = new System.Drawing.Point(0, 28);
+            this.GroupBox1.Location = new System.Drawing.Point(6, 6);
             this.GroupBox1.Name = "GroupBox1";
-            this.GroupBox1.Size = new System.Drawing.Size(585, 135);
+            this.GroupBox1.Size = new System.Drawing.Size(576, 162);
             this.GroupBox1.TabIndex = 54;
             this.GroupBox1.TabStop = false;
-            this.GroupBox1.Text = "Datos Cliente";
             // 
             // txtEmail
             // 
@@ -222,6 +226,21 @@
             this.ToolStrip1.TabIndex = 55;
             this.ToolStrip1.Text = "ToolStrip1";
             // 
+            // ToolStripSeparator2
+            // 
+            this.ToolStripSeparator2.Name = "ToolStripSeparator2";
+            this.ToolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            // 
+            // ToolStripSeparator1
+            // 
+            this.ToolStripSeparator1.Name = "ToolStripSeparator1";
+            this.ToolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            // 
+            // ToolStripSeparator3
+            // 
+            this.ToolStripSeparator3.Name = "ToolStripSeparator3";
+            this.ToolStripSeparator3.Size = new System.Drawing.Size(6, 25);
+            // 
             // btnNuevoTool
             // 
             this.btnNuevoTool.Image = ((System.Drawing.Image)(resources.GetObject("btnNuevoTool.Image")));
@@ -230,11 +249,6 @@
             this.btnNuevoTool.Size = new System.Drawing.Size(80, 22);
             this.btnNuevoTool.Text = "F5: Nuevo";
             this.btnNuevoTool.Click += new System.EventHandler(this.btnNuevoTool_Click);
-            // 
-            // ToolStripSeparator2
-            // 
-            this.ToolStripSeparator2.Name = "ToolStripSeparator2";
-            this.ToolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
             // btnAddTool
             // 
@@ -254,11 +268,6 @@
             this.btnModificarTool.Text = "F7: Modificar";
             this.btnModificarTool.Click += new System.EventHandler(this.btnModificarTool_Click);
             // 
-            // ToolStripSeparator1
-            // 
-            this.ToolStripSeparator1.Name = "ToolStripSeparator1";
-            this.ToolStripSeparator1.Size = new System.Drawing.Size(6, 25);
-            // 
             // btnEliminarTool
             // 
             this.btnEliminarTool.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminarTool.Image")));
@@ -267,11 +276,6 @@
             this.btnEliminarTool.Size = new System.Drawing.Size(88, 22);
             this.btnEliminarTool.Text = "F8: Eliminar";
             this.btnEliminarTool.Click += new System.EventHandler(this.btnEliminarTool_Click);
-            // 
-            // ToolStripSeparator3
-            // 
-            this.ToolStripSeparator3.Name = "ToolStripSeparator3";
-            this.ToolStripSeparator3.Size = new System.Drawing.Size(6, 25);
             // 
             // btnCancelarTool
             // 
@@ -282,13 +286,44 @@
             this.btnCancelarTool.Text = "Cancelar";
             this.btnCancelarTool.Click += new System.EventHandler(this.btnCancelarTool_Click);
             // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Location = new System.Drawing.Point(0, 28);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(593, 200);
+            this.tabControl1.TabIndex = 56;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.GroupBox1);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(585, 174);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Datos cliente";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(543, 174);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Facturas";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
             // frmManClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(593, 170);
+            this.ClientSize = new System.Drawing.Size(593, 233);
+            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.ToolStrip1);
-            this.Controls.Add(this.GroupBox1);
             this.Name = "frmManClientes";
             this.Text = "Mantenimiento de clientes";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmManClientes_KeyDown);
@@ -296,6 +331,8 @@
             this.GroupBox1.PerformLayout();
             this.ToolStrip1.ResumeLayout(false);
             this.ToolStrip1.PerformLayout();
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -328,5 +365,8 @@
         internal System.Windows.Forms.ToolStripSeparator ToolStripSeparator3;
         internal System.Windows.Forms.ToolStripButton btnCancelarTool;
         internal System.Windows.Forms.ToolStripButton btnNuevoTool;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
     }
 }

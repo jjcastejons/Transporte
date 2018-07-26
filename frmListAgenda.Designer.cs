@@ -153,7 +153,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackgroundImage = global::Transportes.Properties.Resources.Fondo_Agenda;
-            this.ClientSize = new System.Drawing.Size(1132, 663);
+            this.ClientSize = new System.Drawing.Size(1132, 632);
             this.Controls.Add(this.btnAddItem);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.lblServicios);
@@ -163,6 +163,9 @@
             this.Controls.Add(this.fechaDesde);
             this.Controls.Add(this.grdAgenda);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmListAgenda";
             this.Text = "AGENDA";
             this.panel1.ResumeLayout(false);

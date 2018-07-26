@@ -71,7 +71,7 @@ namespace Transportes
         public void cargarCombos() {
             clsFunciones clsFunc = new clsFunciones();
             clsFunc.cargarCombos(cmbTipoVehiculo, "select id_key_tipo_vehiculo,tipo_vehiculo from tg_tipos_vehiculo","tipo_vehiculo","id_key_tipo_vehiculo",true);
-            clsFunc.cargarCombos(cmbTipoRuedas, "select id_key_tipo_ruedas,descripcion from tg_tipos_ruedas", "descripcion", "id_key_tipo_ruedas", true);
+            clsFunc.cargarCombos(cmbTipoRuedas, "select id_key_tipo_ruedas,descripcion from ruedas", "descripcion", "id_key_tipo_ruedas", true);
         }
 
 

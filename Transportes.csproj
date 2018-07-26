@@ -403,11 +403,17 @@
       <DependentUpon>Clientes.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <EmbeddedResource Include="frmListArticulos.resx">
+      <DependentUpon>frmListArticulos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmListUsuarios.resx">
       <DependentUpon>frmListUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManArticulos.resx">
+      <DependentUpon>frmManArticulos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\CrystalReport2.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>

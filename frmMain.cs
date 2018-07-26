@@ -92,5 +92,12 @@ namespace Transportes
             frmListUsuarios formulario = new frmListUsuarios();
             formulario.ShowDialog();
         }
+
+        private void articulosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListArticulos formulario = new frmListArticulos();
+            formulario.StartPosition = FormStartPosition.CenterScreen;
+            formulario.ShowDialog();
+        }
     }
 }

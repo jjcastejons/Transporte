@@ -30,18 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmManArticulos));
             this.ToolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.btnNuevoTool = new System.Windows.Forms.ToolStripButton();
             this.ToolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.btnAddTool = new System.Windows.Forms.ToolStripButton();
-            this.btnModificarTool = new System.Windows.Forms.ToolStripButton();
             this.ToolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.btnEliminarTool = new System.Windows.Forms.ToolStripButton();
             this.ToolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.btnCancelarTool = new System.Windows.Forms.ToolStripButton();
             this.Label5 = new System.Windows.Forms.Label();
             this.Label1 = new System.Windows.Forms.Label();
             this.cmbProveedor = new System.Windows.Forms.ComboBox();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
+            this.btnNuevoTool = new System.Windows.Forms.ToolStripButton();
+            this.btnAddTool = new System.Windows.Forms.ToolStripButton();
+            this.btnModificarTool = new System.Windows.Forms.ToolStripButton();
+            this.btnEliminarTool = new System.Windows.Forms.ToolStripButton();
+            this.btnCancelarTool = new System.Windows.Forms.ToolStripButton();
             this.ToolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,60 +62,20 @@
             this.ToolStrip1.TabIndex = 54;
             this.ToolStrip1.Text = "ToolStrip1";
             // 
-            // btnNuevoTool
-            // 
-            this.btnNuevoTool.Image = ((System.Drawing.Image)(resources.GetObject("btnNuevoTool.Image")));
-            this.btnNuevoTool.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnNuevoTool.Name = "btnNuevoTool";
-            this.btnNuevoTool.Size = new System.Drawing.Size(80, 22);
-            this.btnNuevoTool.Text = "F5: Nuevo";
-            // 
             // ToolStripSeparator2
             // 
             this.ToolStripSeparator2.Name = "ToolStripSeparator2";
             this.ToolStripSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // btnAddTool
-            // 
-            this.btnAddTool.Image = ((System.Drawing.Image)(resources.GetObject("btnAddTool.Image")));
-            this.btnAddTool.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnAddTool.Name = "btnAddTool";
-            this.btnAddTool.Size = new System.Drawing.Size(80, 22);
-            this.btnAddTool.Text = "F6: Añadir";
-            // 
-            // btnModificarTool
-            // 
-            this.btnModificarTool.Image = ((System.Drawing.Image)(resources.GetObject("btnModificarTool.Image")));
-            this.btnModificarTool.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnModificarTool.Name = "btnModificarTool";
-            this.btnModificarTool.Size = new System.Drawing.Size(96, 22);
-            this.btnModificarTool.Text = "F7: Modificar";
             // 
             // ToolStripSeparator1
             // 
             this.ToolStripSeparator1.Name = "ToolStripSeparator1";
             this.ToolStripSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
-            // btnEliminarTool
-            // 
-            this.btnEliminarTool.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminarTool.Image")));
-            this.btnEliminarTool.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnEliminarTool.Name = "btnEliminarTool";
-            this.btnEliminarTool.Size = new System.Drawing.Size(88, 22);
-            this.btnEliminarTool.Text = "F8: Eliminar";
-            // 
             // ToolStripSeparator3
             // 
             this.ToolStripSeparator3.Name = "ToolStripSeparator3";
             this.ToolStripSeparator3.Size = new System.Drawing.Size(6, 25);
-            // 
-            // btnCancelarTool
-            // 
-            this.btnCancelarTool.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelarTool.Image")));
-            this.btnCancelarTool.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.btnCancelarTool.Name = "btnCancelarTool";
-            this.btnCancelarTool.Size = new System.Drawing.Size(73, 22);
-            this.btnCancelarTool.Text = "Cancelar";
             // 
             // Label5
             // 
@@ -155,6 +115,47 @@
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(200, 20);
             this.txtDescripcion.TabIndex = 71;
+            // 
+            // btnNuevoTool
+            // 
+            this.btnNuevoTool.Image = ((System.Drawing.Image)(resources.GetObject("btnNuevoTool.Image")));
+            this.btnNuevoTool.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnNuevoTool.Name = "btnNuevoTool";
+            this.btnNuevoTool.Size = new System.Drawing.Size(80, 22);
+            this.btnNuevoTool.Text = "F5: Nuevo";
+            // 
+            // btnAddTool
+            // 
+            this.btnAddTool.Image = ((System.Drawing.Image)(resources.GetObject("btnAddTool.Image")));
+            this.btnAddTool.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnAddTool.Name = "btnAddTool";
+            this.btnAddTool.Size = new System.Drawing.Size(80, 22);
+            this.btnAddTool.Text = "F6: Añadir";
+            this.btnAddTool.Click += new System.EventHandler(this.btnAddTool_Click);
+            // 
+            // btnModificarTool
+            // 
+            this.btnModificarTool.Image = ((System.Drawing.Image)(resources.GetObject("btnModificarTool.Image")));
+            this.btnModificarTool.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnModificarTool.Name = "btnModificarTool";
+            this.btnModificarTool.Size = new System.Drawing.Size(96, 22);
+            this.btnModificarTool.Text = "F7: Modificar";
+            // 
+            // btnEliminarTool
+            // 
+            this.btnEliminarTool.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminarTool.Image")));
+            this.btnEliminarTool.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnEliminarTool.Name = "btnEliminarTool";
+            this.btnEliminarTool.Size = new System.Drawing.Size(88, 22);
+            this.btnEliminarTool.Text = "F8: Eliminar";
+            // 
+            // btnCancelarTool
+            // 
+            this.btnCancelarTool.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelarTool.Image")));
+            this.btnCancelarTool.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnCancelarTool.Name = "btnCancelarTool";
+            this.btnCancelarTool.Size = new System.Drawing.Size(73, 20);
+            this.btnCancelarTool.Text = "Cancelar";
             // 
             // frmManArticulos
             // 

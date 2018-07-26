@@ -106,5 +106,26 @@ namespace Transportes
             formulario.StartPosition = FormStartPosition.CenterScreen;
             formulario.ShowDialog();
         }
+
+        private void combustiblesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListCombustibles formulario = new frmListCombustibles();
+            formulario.StartPosition = FormStartPosition.CenterScreen;
+            formulario.ShowDialog();
+        }
+
+        private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListProveedores formulario = new frmListProveedores();
+            formulario.StartPosition = FormStartPosition.CenterScreen;
+            formulario.ShowDialog();
+        }
+
+        private void facturasCompraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmListFacturasCompra formulario = new frmListFacturasCompra();
+            formulario.StartPosition = FormStartPosition.CenterScreen;
+            formulario.ShowDialog();
+        }
     }
 }

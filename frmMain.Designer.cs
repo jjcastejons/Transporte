@@ -45,7 +45,6 @@
             this.comprasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.articulosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.proveedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pedidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.neumáticosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.combustiblesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gastosFlotaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,6 +52,7 @@
             this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
             this.btnAlerta = new System.Windows.Forms.ToolStripButton();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.facturasCompraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -163,9 +163,9 @@
             this.comprasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.articulosToolStripMenuItem,
             this.proveedoresToolStripMenuItem,
-            this.pedidosToolStripMenuItem,
             this.neumáticosToolStripMenuItem,
-            this.combustiblesToolStripMenuItem});
+            this.combustiblesToolStripMenuItem,
+            this.facturasCompraToolStripMenuItem});
             this.comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
             this.comprasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.comprasToolStripMenuItem.Text = "Compras";
@@ -173,34 +173,30 @@
             // articulosToolStripMenuItem
             // 
             this.articulosToolStripMenuItem.Name = "articulosToolStripMenuItem";
-            this.articulosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.articulosToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.articulosToolStripMenuItem.Text = "Articulos";
             this.articulosToolStripMenuItem.Click += new System.EventHandler(this.articulosToolStripMenuItem_Click);
             // 
             // proveedoresToolStripMenuItem
             // 
             this.proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem";
-            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.proveedoresToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.proveedoresToolStripMenuItem.Text = "Proveedores";
-            // 
-            // pedidosToolStripMenuItem
-            // 
-            this.pedidosToolStripMenuItem.Name = "pedidosToolStripMenuItem";
-            this.pedidosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.pedidosToolStripMenuItem.Text = "Pedidos";
+            this.proveedoresToolStripMenuItem.Click += new System.EventHandler(this.proveedoresToolStripMenuItem_Click);
             // 
             // neumáticosToolStripMenuItem
             // 
             this.neumáticosToolStripMenuItem.Name = "neumáticosToolStripMenuItem";
-            this.neumáticosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.neumáticosToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.neumáticosToolStripMenuItem.Text = "Neumáticos";
             this.neumáticosToolStripMenuItem.Click += new System.EventHandler(this.neumáticosToolStripMenuItem_Click);
             // 
             // combustiblesToolStripMenuItem
             // 
             this.combustiblesToolStripMenuItem.Name = "combustiblesToolStripMenuItem";
-            this.combustiblesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.combustiblesToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.combustiblesToolStripMenuItem.Text = "Combustibles";
+            this.combustiblesToolStripMenuItem.Click += new System.EventHandler(this.combustiblesToolStripMenuItem_Click);
             // 
             // gastosFlotaToolStripMenuItem
             // 
@@ -235,6 +231,13 @@
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             this.imageList1.Images.SetKeyName(0, "delete2.png");
             this.imageList1.Images.SetKeyName(1, "add.png");
+            // 
+            // facturasCompraToolStripMenuItem
+            // 
+            this.facturasCompraToolStripMenuItem.Name = "facturasCompraToolStripMenuItem";
+            this.facturasCompraToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
+            this.facturasCompraToolStripMenuItem.Text = "Facturas compra";
+            this.facturasCompraToolStripMenuItem.Click += new System.EventHandler(this.facturasCompraToolStripMenuItem_Click);
             // 
             // frmMain
             // 
@@ -277,9 +280,9 @@
         private System.Windows.Forms.ToolStripMenuItem comprasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem articulosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem proveedoresToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem pedidosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem neumáticosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem combustiblesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gastosFlotaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem facturasCompraToolStripMenuItem;
     }
 }

@@ -123,6 +123,7 @@
             this.btnNuevoTool.Name = "btnNuevoTool";
             this.btnNuevoTool.Size = new System.Drawing.Size(80, 22);
             this.btnNuevoTool.Text = "F5: Nuevo";
+            this.btnNuevoTool.Click += new System.EventHandler(this.btnNuevoTool_Click);
             // 
             // btnAddTool
             // 

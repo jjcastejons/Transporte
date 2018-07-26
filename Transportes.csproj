@@ -409,6 +409,9 @@
     <EmbeddedResource Include="frmListCombustibles.resx">
       <DependentUpon>frmListCombustibles.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmListProveedores.resx">
+      <DependentUpon>frmListProveedores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmListRuedas.resx">
       <DependentUpon>frmListRuedas.cs</DependentUpon>
     </EmbeddedResource>
@@ -423,6 +426,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmManCombustibles.resx">
       <DependentUpon>frmManCombustibles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManProveedores.resx">
+      <DependentUpon>frmManProveedores.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmManRuedas.resx">
       <DependentUpon>frmManRuedas.cs</DependentUpon>

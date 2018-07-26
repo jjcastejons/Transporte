@@ -60,7 +60,12 @@ namespace Transportes
 
         private void btnAddTool_Click(object sender, EventArgs e)
         {
+            //addItem();
+        }
 
+        private void btnNuevoTool_Click(object sender, EventArgs e)
+        {
+            //nuevoItem();
         }
     }
 }

@@ -37,7 +37,6 @@
             this.ToolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripDropDownButton4 = new System.Windows.Forms.ToolStripDropDownButton();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.testInformeClientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
@@ -88,14 +87,14 @@
             // vehiculosToolStripMenuItem
             // 
             this.vehiculosToolStripMenuItem.Name = "vehiculosToolStripMenuItem";
-            this.vehiculosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.vehiculosToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.vehiculosToolStripMenuItem.Text = "Vehiculos";
             this.vehiculosToolStripMenuItem.Click += new System.EventHandler(this.vehiculosToolStripMenuItem_Click);
             // 
             // rutasToolStripMenuItem
             // 
             this.rutasToolStripMenuItem.Name = "rutasToolStripMenuItem";
-            this.rutasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.rutasToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.rutasToolStripMenuItem.Text = "Rutas";
             this.rutasToolStripMenuItem.Click += new System.EventHandler(this.rutasToolStripMenuItem_Click);
             // 
@@ -107,8 +106,7 @@
             // toolStripDropDownButton4
             // 
             this.toolStripDropDownButton4.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1,
-            this.testInformeClientesToolStripMenuItem});
+            this.toolStripMenuItem1});
             this.toolStripDropDownButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton4.Name = "toolStripDropDownButton4";
             this.toolStripDropDownButton4.Size = new System.Drawing.Size(46, 22);
@@ -117,16 +115,9 @@
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(184, 22);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
             this.toolStripMenuItem1.Text = "Clientes";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click_1);
-            // 
-            // testInformeClientesToolStripMenuItem
-            // 
-            this.testInformeClientesToolStripMenuItem.Name = "testInformeClientesToolStripMenuItem";
-            this.testInformeClientesToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
-            this.testInformeClientesToolStripMenuItem.Text = "Test informe clientes";
-            this.testInformeClientesToolStripMenuItem.Click += new System.EventHandler(this.testInformeClientesToolStripMenuItem_Click);
             // 
             // toolStripDropDownButton1
             // 
@@ -148,8 +139,9 @@
             // toolStripMenuItem8
             // 
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(132, 22);
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(152, 22);
             this.toolStripMenuItem8.Text = "Usuarios";
+            this.toolStripMenuItem8.Click += new System.EventHandler(this.toolStripMenuItem8_Click);
             // 
             // ToolStripSeparator3
             // 
@@ -226,7 +218,7 @@
             // toolStripMenuItem11
             // 
             this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(152, 22);
+            this.toolStripMenuItem11.Size = new System.Drawing.Size(115, 22);
             this.toolStripMenuItem11.Text = "Agenda";
             this.toolStripMenuItem11.Click += new System.EventHandler(this.toolStripMenuItem11_Click);
             // 
@@ -287,6 +279,5 @@
         private System.Windows.Forms.ToolStripMenuItem neumáticosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem combustiblesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gastosFlotaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem testInformeClientesToolStripMenuItem;
     }
 }

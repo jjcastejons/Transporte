@@ -86,5 +86,11 @@ namespace Transportes
             OpenReport.PrintLogon(mdPrincipal.RPT_Ruta_Informes + "CrystalReport2.rpt", mdPrincipal.RPT_Usuario, mdPrincipal.RPT_Password, mdPrincipal.RPT_Server, filtro);
 
         }
+
+        private void toolStripMenuItem8_Click(object sender, EventArgs e)
+        {
+            frmListUsuarios formulario = new frmListUsuarios();
+            formulario.ShowDialog();
+        }
     }
 }

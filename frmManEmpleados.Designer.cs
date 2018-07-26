@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmManEmpleados));
             this.ToolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.ToolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.ToolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.ToolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.btnNuevoTool = new System.Windows.Forms.ToolStripButton();
+            this.ToolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.btnAddTool = new System.Windows.Forms.ToolStripButton();
             this.btnModificarTool = new System.Windows.Forms.ToolStripButton();
+            this.ToolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.btnEliminarTool = new System.Windows.Forms.ToolStripButton();
+            this.ToolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.btnCancelarTool = new System.Windows.Forms.ToolStripButton();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtNIF = new System.Windows.Forms.TextBox();
@@ -58,6 +58,8 @@
             this.fechaBaja = new System.Windows.Forms.DateTimePicker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtNumSS = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
             this.ToolStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -79,21 +81,6 @@
             this.ToolStrip1.TabIndex = 53;
             this.ToolStrip1.Text = "ToolStrip1";
             // 
-            // ToolStripSeparator2
-            // 
-            this.ToolStripSeparator2.Name = "ToolStripSeparator2";
-            this.ToolStripSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // ToolStripSeparator1
-            // 
-            this.ToolStripSeparator1.Name = "ToolStripSeparator1";
-            this.ToolStripSeparator1.Size = new System.Drawing.Size(6, 25);
-            // 
-            // ToolStripSeparator3
-            // 
-            this.ToolStripSeparator3.Name = "ToolStripSeparator3";
-            this.ToolStripSeparator3.Size = new System.Drawing.Size(6, 25);
-            // 
             // btnNuevoTool
             // 
             this.btnNuevoTool.Image = ((System.Drawing.Image)(resources.GetObject("btnNuevoTool.Image")));
@@ -102,6 +89,11 @@
             this.btnNuevoTool.Size = new System.Drawing.Size(80, 22);
             this.btnNuevoTool.Text = "F5: Nuevo";
             this.btnNuevoTool.Click += new System.EventHandler(this.btnNuevoTool_Click);
+            // 
+            // ToolStripSeparator2
+            // 
+            this.ToolStripSeparator2.Name = "ToolStripSeparator2";
+            this.ToolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
             // btnAddTool
             // 
@@ -121,6 +113,11 @@
             this.btnModificarTool.Text = "F7: Modificar";
             this.btnModificarTool.Click += new System.EventHandler(this.btnModificarTool_Click);
             // 
+            // ToolStripSeparator1
+            // 
+            this.ToolStripSeparator1.Name = "ToolStripSeparator1";
+            this.ToolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            // 
             // btnEliminarTool
             // 
             this.btnEliminarTool.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminarTool.Image")));
@@ -129,6 +126,11 @@
             this.btnEliminarTool.Size = new System.Drawing.Size(88, 22);
             this.btnEliminarTool.Text = "F8: Eliminar";
             this.btnEliminarTool.Click += new System.EventHandler(this.btnEliminarTool_Click);
+            // 
+            // ToolStripSeparator3
+            // 
+            this.ToolStripSeparator3.Name = "ToolStripSeparator3";
+            this.ToolStripSeparator3.Size = new System.Drawing.Size(6, 25);
             // 
             // btnCancelarTool
             // 
@@ -334,11 +336,33 @@
             this.txtNumSS.Size = new System.Drawing.Size(200, 20);
             this.txtNumSS.TabIndex = 80;
             // 
+            // button1
+            // 
+            this.button1.Image = global::Transportes.Properties.Resources.businessman;
+            this.button1.Location = new System.Drawing.Point(417, 298);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(32, 23);
+            this.button1.TabIndex = 81;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(359, 282);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(159, 13);
+            this.label8.TabIndex = 82;
+            this.label8.Text = "Activar/Desactivar usuario";
+            // 
             // frmManEmpleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(540, 336);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtNumSS);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.fechaBaja);
@@ -401,5 +425,7 @@
         private System.Windows.Forms.DateTimePicker fechaBaja;
         private System.Windows.Forms.PictureBox pictureBox1;
         internal System.Windows.Forms.TextBox txtNumSS;
+        private System.Windows.Forms.Button button1;
+        internal System.Windows.Forms.Label label8;
     }
 }

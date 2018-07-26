@@ -232,6 +232,12 @@
     <Compile Include="clsFunciones.cs" />
     <Compile Include="clsReport.cs" />
     <Compile Include="clsSQL.cs" />
+    <Compile Include="frmListUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListUsuarios.Designer.cs">
+      <DependentUpon>frmListUsuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -337,6 +343,9 @@
       <DependentUpon>Clientes.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <EmbeddedResource Include="frmListUsuarios.resx">
+      <DependentUpon>frmListUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>

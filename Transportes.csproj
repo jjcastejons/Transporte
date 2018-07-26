@@ -409,6 +409,9 @@
     <EmbeddedResource Include="frmListCombustibles.resx">
       <DependentUpon>frmListCombustibles.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmListFacturasCompra.resx">
+      <DependentUpon>frmListFacturasCompra.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmListProveedores.resx">
       <DependentUpon>frmListProveedores.cs</DependentUpon>
     </EmbeddedResource>
@@ -426,6 +429,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmManCombustibles.resx">
       <DependentUpon>frmManCombustibles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManFacturasCompra.resx">
+      <DependentUpon>frmManFacturasCompra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmManProveedores.resx">
       <DependentUpon>frmManProveedores.cs</DependentUpon>
@@ -572,6 +578,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Imagenes\key1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\navigate_up2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -232,6 +232,36 @@
     <Compile Include="clsFunciones.cs" />
     <Compile Include="clsReport.cs" />
     <Compile Include="clsSQL.cs" />
+    <Compile Include="frmListArticulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListArticulos.Designer.cs">
+      <DependentUpon>frmListArticulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListCombustibles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListCombustibles.Designer.cs">
+      <DependentUpon>frmListCombustibles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListFacturasCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListFacturasCompra.Designer.cs">
+      <DependentUpon>frmListFacturasCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListProveedores.Designer.cs">
+      <DependentUpon>frmListProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListRuedas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListRuedas.Designer.cs">
+      <DependentUpon>frmListRuedas.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmListUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -243,6 +273,36 @@
     </Compile>
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManArticulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManArticulos.Designer.cs">
+      <DependentUpon>frmManArticulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManCombustibles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManCombustibles.Designer.cs">
+      <DependentUpon>frmManCombustibles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManFacturasCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManFacturasCompra.Designer.cs">
+      <DependentUpon>frmManFacturasCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManProveedores.Designer.cs">
+      <DependentUpon>frmManProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManRuedas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManRuedas.Designer.cs">
+      <DependentUpon>frmManRuedas.cs</DependentUpon>
     </Compile>
     <Compile Include="Reports\CrystalReport2.cs">
       <AutoGen>True</AutoGen>
